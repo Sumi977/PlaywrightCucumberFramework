@@ -49,7 +49,7 @@ for (const data of dataSet) {
    })
 };
 
-customtest.only(`Client App Logon`, async ({ page, testDataForOrder }) => {
+customtest(`Client App Logon`, async ({ page, testDataForOrder }) => {
 
    const poManager = new POManager(page);
 
