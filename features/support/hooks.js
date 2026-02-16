@@ -4,7 +4,7 @@ const { Before, After, BeforeStep, AfterStep, Status } = require('@cucumber/cucu
 
 Before(async function () {
     this.browser = await playwright.chromium.launch({
-        headless: false
+        headless: true
     });
 
     this.context = await this.browser.newContext();
