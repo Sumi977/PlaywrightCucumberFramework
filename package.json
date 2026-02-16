@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "CucumberRegression": "npx cucumber-js --parallel 2 --exit --format html:cucumber-report.html --retry 1"
+    "test": "npx cucumber-js --parallel 2 --exit --format html:cucumber-report.html --retry 1"
   },
   "keywords": [],
   "author": "",
